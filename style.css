@@ -43,6 +43,10 @@ body {
   padding-left: 20px;
   cursor: pointer;
 }
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 .pictures {
   position: relative;
   float: left;
