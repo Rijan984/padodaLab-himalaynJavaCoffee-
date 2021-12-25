@@ -363,7 +363,7 @@ body {
     float: left;
   }
   .nav {
-    display: block;
+    display: flex;
     float: left;
     width: 100%;
     height: auto;
@@ -372,6 +372,7 @@ body {
     float: left;
     margin-left: 0;
     padding: 1px;
+    text-align: center;
   }
   .nav ul li {
     font-size: 15px;
