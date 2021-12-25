@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.container {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  float: left;
+  height: 60px;
+  background-color: #ffffff;
+}
+.logo {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 10%;
+}
+.logo img {
+  height: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.nav ul {
+  text-decoration: none;
+  margin-left: 40%;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 20px;
+  float: left;
+  color: #4a302c;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.pictures {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.back-photo {
+  width: 100%;
+  float: left;
+}
+.pic-details {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: #ffff;
+  float: left;
+}
+.pic-details h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.pic-details p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.pic-details .learn-btn {
+  display: flex;
+  margin-top: 3%;
+  justify-content: center;
+}
+.pic-details button {
+  background: none;
+  border: 2px solid #ffffff;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  padding: 15px;
+  cursor: pointer;
+}
+.drinks {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.drinks-img {
+  float: left;
+  width: 50%;
+  position: relative;
+  height: 700px;
+}
+.drinks-img img {
+  height: 300px;
+  float: left;
+}
+.crossaint {
+  position: absolute;
+  top: -0.4%;
+  left: -1.9%;
+}
+.cup-image {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+.cup {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+.drink-content {
+  position: relative;
+  padding: 20px;
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+}
+.drink-content h2 {
+  font-size: 45px;
+  color: #4a302c;
+}
+.drink-btn {
+  background: none;
+  padding: 10px;
+  letter-spacing: 1.6px;
+  color: #472b1b;
+  border: 2px solid #472b1b;
+  margin-top: 4%;
+}
+.content {
+  width: 90%;
+  float: left;
+}
+.cnt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #e68100;
+  border-bottom: 0.5px dotted;
+}
+.sack {
+  position: absolute;
+  top: -20%;
+  left: 67%;
+  height: 500px;
+}
+.service {
+  background-color: #f4eadc;
+  width: 100%;
+  float: left;
+
+  height: 500px;
+}
+.underlines {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.underline {
+  width: 5%;
+  background-color: rgb(247, 131, 48);
+  height: 3px;
+  text-align: center;
+}
+.service h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: #4a302c;
+}
+.service-content {
+  text-align: center;
+  float: left;
+  width: 30%;
+}
+.service-content h4 {
+  color: #4a302c;
+}
+.service-content .photo img {
+  height: 60px;
+}
+.cnt-box {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-top: 30px;
+}
+.service-content .txt {
+  width: 100%;
+  padding: 5px 20px 0 20px;
+}
+.feedback-box {
+  width: 100%;
+  float: left;
+  height: 450px;
+}
+.feedback-box h2 {
+  text-align: center;
+  margin-top: 5%;
+}
+.first {
+  margin-top: 2%;
+  float: left;
+}
+.feedback {
+  width: 100%;
+  float: left;
+  margin-top: 2%;
+}
+.feedback-cnt {
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+}
+.feedback-cnt .photo {
+  display: flex;
+  margin-top: 20px;
+}
+.feedback-cnt .photo h4 {
+  padding: 20px;
+}
+.location {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 400px;
+  text-align: center;
+  background-color: #f4eadc;
+}
+.location h2 {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 5%;
+}
+.location img {
+  position: relative;
+  height: 400px;
+  text-align: center;
+}
+.location-cnt {
+  text-align: center;
+  position: absolute;
+  float: left;
+  top: 0;
+}
+.location-cnt .txt {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.location-cnt p {
+  width: 40%;
+}
+
+.btn button {
+  padding: 10px;
+  background: none;
+  border: 2px solid #472b1b;
+  width: 7%;
+  letter-spacing: 1.6px;
+  color: #472b1b;
+  margin-top: 2%;
+}
+.photo-collection {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+.photo-collection .txt {
+  text-align: center;
+}
+.photo-collection .txt p {
+  margin-top: 20px;
+}
+.photo-collection .photos {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+.photo-collection .photos img {
+  height: 300px;
+  padding: 20px;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  background-color: #161616;
+  position: relative;
+}
+.footer-content {
+  text-align: center;
+}
+.footer-content img {
+  height: 100px;
+}
+.footer-content p {
+  margin-top: 10px;
+}
+.bean img {
+  height: 70px;
+}
+.beans {
+  position: absolute;
+  top: -80%;
+  right: 5%;
+  float: left;
+}
+.beans2 {
+  position: absolute;
+  left: -2%;
+  top: 50%;
+  float: left;
+}
+#bean img {
+  height: 120px;
+}
+.beans3 {
+  position: absolute;
+  top: -9%;
+  left: 0%;
+  float: left;
+}
+.beans4 {
+  position: absolute;
+  top: -80%;
+  right: -50%;
+  float: left;
+}
+@media screen and (max-width: 900px) {
+  .header {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+    float: left;
+  }
+  .nav {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .nav ul {
+    float: left;
+    margin-left: 0;
+    padding: 1px;
+  }
+  .nav ul li {
+    font-size: 15px;
+  }
+  .drinks-img {
+    width: 100%;
+    float: left;
+    height: 450px;
+  }
+  .drinks-img img {
+    height: 250px;
+  }
+  .cup {
+    position: relative;
+    top: 40%;
+    left: 25%;
+  }
+  .cup-image {
+    top: 10%;
+    right: 10%;
+  }
+  .drink-content {
+    width: 100%;
+  }
+  .feedback-box {
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+  .feedback {
+    width: 100%;
+    float: left;
+  }
+  .feedback-cnt {
+    width: 60%;
+    float: left;
+    margin: 0 20% 0 20%;
+    margin-bottom: 20px;
+  }
+  .feedback-cnt .photo {
+    display: flex;
+    justify-content: center;
+  }
+  .photo-collection {
+    width: 100%;
+    float: left;
+  }
+  .photo-collection .photos {
+    width: 100%;
+    float: left;
+    display: block;
+  }
+  .photos img {
+    width: 50%;
+
+    margin: 0 25% 0 25%;
+    float: left;
+  }
+  .service {
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+  .cnt-box {
+    display: block;
+    width: 100%;
+  }
+  #cnt-box2 {
+    margin-top: 0;
+  }
+  .service-content {
+    display: block;
+    width: 50%;
+    margin: 0 25% 5% 25%;
+  }
+  .learn-btn button {
+    padding: 5px;
+  }
+  .location .txt p {
+    width: 80%;
+  }
+  .location .btn button {
+    padding: 5px;
+    width: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .drinks-img {
+    width: 100%;
+    float: left;
+    height: 200px;
+  }
+  .drinks-img img {
+    height: 150px;
+  }
+  .cup {
+    position: relative;
+    top: 50%;
+  }
+  .cup-image {
+    left: 50%;
+  }
+  .drink-content {
+    width: 90%;
+  }
+  .drinks .sack {
+    top: -25%;
+  }
+  .photo-collection {
+    width: 100%;
+    float: left;
+  }
+  .photo-collection .photos {
+    width: 100%;
+    float: left;
+    display: block;
+  }
+  .photos img {
+    width: 70%;
+
+    margin: 0 15% 0 15%;
+    float: left;
+  }
+}
